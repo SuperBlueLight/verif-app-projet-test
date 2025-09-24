@@ -2,42 +2,17 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Bouton On/Off</title>
+  <title>Activation</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       text-align: center;
-      margin-top: 100px;
-    }
-    #toggleButton {
-      padding: 15px 30px;
-      font-size: 18px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      background-color: red;
-      color: white;
-      transition: background-color 0.3s ease;
+      margin-top: 150px;
+      font-size: 24px;
     }
   </style>
 </head>
 <body>
-  <button id="toggleButton">OFF</button>
-
-  <script>
-    const button = document.getElementById("toggleButton");
-    let isOn = false;
-
-    button.addEventListener("click", () => {
-      isOn = !isOn;
-      if (isOn) {
-        button.textContent = "ON";
-        button.style.backgroundColor = "green";
-      } else {
-        button.textContent = "OFF";
-        button.style.backgroundColor = "red";
-      }
-    });
-  </script>
+  <p>Activation : OFF</p>
 </body>
 </html>
